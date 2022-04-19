@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "mappings": "AEAA,OAAO,CAAC,kEAAI,CEAZ,AAAA,CAAC,CACD,CAAC,AAAA,OAAO,CACR,CAAC,AAAA,QAAQ,AAAC,CACR,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,UAAU,CACvB,AAED,AAAA,IAAI,AAAC,CACH,gBAAgB,CAAE,IAAI,CACtB,WAAW,CAAE,UAAU,CACvB,WAAW,CAAE,GAAG,CAChB,UAAU,CAAE,KAAK,CACjB,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACvB,AAED,AAAA,IAAI,AAAC,CACH,SAAS,CAAE,CAAC,CACb,AAED,AAAA,IAAI,AAAC,CACH,eAAe,CAAE,MAAM,CACxB,AGvBD,AAAA,UAAU,AAAC,CACT,KAAK,CAAE,MAAM,CACb,OAAO,CAAE,MAAM,CACf,MAAM,CAAE,MAAM,CACf,ACFD,AAAA,OAAO,AAAC,CACN,gBAAgB,CAAE,IAAI,CACvB,AEFD,AAAA,OAAO,AAAC,CACN,gBAAgB,CAAE,IAAI,CACvB",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/_fonts.scss",
+        "../sass/_normalize.scss",
+        "../sass/_mixins.scss",
+        "../sass/_general.scss",
+        "../sass/_variables.scss",
+        "../sass/blocks/_blocks.scss",
+        "../sass/blocks/_container.scss",
+        "../sass/blocks/_header.scss",
+        "../sass/blocks/_main.scss",
+        "../sass/blocks/_footer.scss",
+        "../sass/blocks/_hero.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}

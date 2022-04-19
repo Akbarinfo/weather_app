@@ -1,0 +1,53 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* HEADER PART  */
+.header {
+  background-color: #fff;
+}
+
+/* MAIN PART  */
+/* FOOTER PART */
+.footer {
+  background-color: #fff;
+}
+
+/* HERO PART  */
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "mappings": "AEAA,OAAO,CAAC,kEAAI;AEAZ,AAAA,CAAC;AACD,CAAC,AAAA,OAAO;AACR,CAAC,AAAA,QAAQ,CAAC;EACR,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;AAED,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,IAAI;EACtB,WAAW,EAAE,UAAU;EACvB,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CACvB;;AAED,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,CAAC;CACb;;AAED,AAAA,IAAI,CAAC;EACH,eAAe,EAAE,MAAM;CACxB;;AGvBD,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,MAAM;EACb,OAAO,EAAE,MAAM;EACf,MAAM,EAAE,MAAM;CACf;;ACJD,kBAAkB;AAElB,AAAA,OAAO,CAAC;EACN,gBAAgB,EAAE,IAAI;CACvB;;ACJD,gBAAgB;ACAhB,iBAAiB;AAEjB,AAAA,OAAO,CAAC;EACN,gBAAgB,EAAE,IAAI;CACvB;;ACJD,gBAAgB",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/_fonts.scss",
+        "../sass/_normalize.scss",
+        "../sass/_mixins.scss",
+        "../sass/_general.scss",
+        "../sass/_variables.scss",
+        "../sass/blocks/_blocks.scss",
+        "../sass/blocks/_container.scss",
+        "../sass/blocks/_header.scss",
+        "../sass/blocks/_main.scss",
+        "../sass/blocks/_footer.scss",
+        "../sass/blocks/_hero.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
