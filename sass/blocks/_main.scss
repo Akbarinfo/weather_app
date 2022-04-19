@@ -1,2 +1,114 @@
 /* MAIN PART  */
 
+.weather {
+  position: relative;
+
+  &__sun {
+    width: 30%;
+    height: 60vh;
+    position: absolute;
+    top: -50px;
+    right: 50px;
+    background-image: url(/img/sun-icon.svg);
+    background-repeat: no-repeat;
+  }
+
+  &__main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__boxs {
+    position: relative;
+    width: 100%;
+    height: 720px;
+    background: linear-gradient(252.44deg, rgba(239, 255, 253, 0.7) 0%, rgba(239, 255, 253, 0) 100%);
+    backdrop-filter: blur(40px);
+    border-radius:85px;
+    padding-top: 39px;
+    z-index: 10;
+  }
+
+  &__form {
+    position: relative;
+    width: 464px;
+    background: linear-gradient(269.42deg, #F2FBFF -1.71%, rgba(242, 251, 255, 0.3) 100%);
+    opacity: 0.5;
+    border-radius: 18px;
+    margin: 0 auto;
+  }
+
+  &__label {
+    position: relative;
+  }
+
+  &__input {
+    background: none;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 15px;
+    line-height: 22px;
+    color: #97a0b9;
+    padding: 12px 26px;
+
+    &:focus {
+      outline: none;
+      font-size: 16px;
+
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    top: 13px;
+    right: 26px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #97a0b9;
+    cursor: pointer;
+  }
+
+  &__infobox {
+    padding-top: 87px;
+    padding-left: 77px;
+  }
+
+  &__city,
+  &__temp,
+  &__sunny {
+    font-size: 46px;
+    line-height: 55px;
+    color: #f2fbffb3;
+    margin-bottom: 11px;
+  }
+
+  &__sunny {
+    margin-bottom: 70px;
+  }
+
+  &__humidity,
+  &__wind {
+    font-size: 34px;
+    line-height: 40px;
+    color: #f2fbffb3;
+    margin-bottom: 11px;
+  }
+
+
+  &__img {
+    position: absolute;
+    top: -140px;
+    right: -150px;
+    width: 437px;
+    height: 437px;
+    object-fit: cover;
+  }
+
+  &__ {
+
+  }
+}

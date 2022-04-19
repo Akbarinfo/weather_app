@@ -5,31 +5,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Weather World</title>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
 
-  <!-- HEADER PART -->
-
-  <header class="">
-    <section class="">
-
-    </section>
-  </header>
-
   <!-- MAIN PART  -->
 
   <main>
+    <section class="weather">
+      <div class="container">
+        <div class="weather__main">
+          <div class="weather__boxs">
+            <form class="weather__form" action="" id="form">
+              <label class="weather__label" for="input">
+                <input class="weather__input" type="text" id="input" placeholder="Search">
+              </label>
+              <button class="weather__btn"><i class='bx bx-search'></i></button>
+            </form>
 
+            <div class="weather__infobox" id="listbox">
+              <!-- <p class="weather__city">Azerbaijan, Baku</p>
+              <p class="weather__temp">13°C</p>
+              <p class="weather__sunny">Sunny</p>
+              <p class="weather__humidity">Humidity: 40%</p>
+              <p class="weather__wind">Wind Speed: 13 km/h</p> -->
+            </div>
+
+            <!-- <img class="weather__img" src="img/sun-icon.svg" alt="sun"> -->
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <!-- FOOTER PART  -->
-
-  <footer class="footer">
-
-  </footer>
 
   <script src="js/main.js"></script>
 </body>
